@@ -1,0 +1,22 @@
+{
+  "name": "shortly",
+  "version": "1.0.0",
+  "description": "Tailwind landing page",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tailwindcss -i ./input.css -o ./css/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ekmin/shortly.git"
+  },
+  "author": "ekmin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ekmin/shortly/issues"
+  },
+  "homepage": "https://github.com/ekmin/shortly#readme",
+  "dependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}
